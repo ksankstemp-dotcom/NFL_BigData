@@ -1,0 +1,30 @@
+$ python outcomes.py
+players with >= 30 pass-forward routes: 131
+nfl_position
+FB     1
+RB     1
+TE    36
+WR    93
+player-route rows with >= 10 : 856
+route_ran
+GO        112
+HITCH     109
+CROSS     100
+IN         91
+OUT        90
+CORNER     85
+SLANT      82
+POST       81
+FLAT       72
+SCREEN     32
+ANGLE       1
+WHEEL       1
+       pass_fwd  mean_sep  sep_over_exp  target_rate
+count    131.00    131.00        131.00       131.00
+mean     354.69      3.10         -0.03         0.17
+std      343.62      0.42          0.29         0.05
+min       31.00      2.32         -0.73         0.07
+25%      100.50      2.80         -0.20         0.15
+50%      248.00      3.09         -0.05         0.17
+75%      490.50      3.33          0.14         0.19
+max     1469.00      5.32          1.10         0.34

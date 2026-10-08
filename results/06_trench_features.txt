@@ -1,0 +1,11 @@
+$ python trench_features.py
+1034 attempts
+                         n  players  speed_0p5s  burst  accel  peak   turn
+side drill                                                                
+DL   BODY_CONTROL      113      111        2.93   2.62   4.45  8.17  41.99
+     FOUR_BAG          112      112        1.92   1.65   3.20  7.13  41.10
+     FRONT_START_WAVE  112      112        2.85   2.67   4.19  7.74  34.24
+     PASS_RUSH         217      114        3.21   3.01   4.45  7.67  28.99
+OL   PASS_PRO_MIRROR   121      121        1.83   1.50   2.83  5.61  25.28
+     PASS_RUSH_DROP    239      120        2.01   1.74   2.74  5.77  34.40
+     WAVE_SLIDE        120      120        1.81   1.55   2.72  7.40  36.44

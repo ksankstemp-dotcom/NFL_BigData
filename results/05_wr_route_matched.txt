@@ -1,0 +1,24 @@
+$ python test_wr_matched.py
+test_wr_matched.py:64: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  return pearsonr(residualize(rankdata(x), Zr), residualize(rankdata(y), Zr))[0]
+19 tests; controls partialled out: ['weight', 'height', 'slot_share']
+ route     feature  n  raw_rho  partial_rho  ci_lo  ci_hi  p_boot  p_bh
+ HITCH  speed_lost 74   -0.120       -0.168 -0.368  0.048   0.121 0.581
+ HITCH   reaccel_s 74   -0.048       -0.080 -0.328  0.175   0.468 0.635
+ HITCH break_angle 74   -0.116       -0.150 -0.363  0.096   0.239 0.581
+   OUT  speed_lost 65    0.104        0.099 -0.155  0.369   0.429 0.627
+   OUT   reaccel_s 52   -0.309       -0.294 -0.537 -0.023   0.036 0.581
+   OUT break_angle 65   -0.147       -0.142 -0.389  0.147   0.312 0.581
+ SLANT  speed_lost 64    0.060        0.007 -0.258  0.280   0.986 0.988
+ SLANT   reaccel_s 64    0.181        0.180    NaN    NaN   0.367 0.581
+ SLANT break_angle 64   -0.123       -0.189 -0.424  0.084   0.183 0.581
+    IN  speed_lost 70    0.116        0.131 -0.114  0.359   0.278 0.581
+    IN   reaccel_s 70    0.180        0.203 -0.023  0.424   0.076 0.581
+    IN break_angle 70    0.123        0.165 -0.083  0.414   0.206 0.581
+  POST  speed_lost 61    0.105        0.164 -0.067  0.379   0.148 0.581
+  POST   reaccel_s 59   -0.003        0.029 -0.223  0.269   0.844 0.943
+  POST break_angle 61    0.010        0.072 -0.179  0.324   0.610 0.724
+CORNER  speed_lost 61   -0.170       -0.133 -0.362  0.131   0.357 0.581
+CORNER   reaccel_s 59   -0.034       -0.006 -0.271  0.278   0.988 0.988
+CORNER break_angle 61   -0.143       -0.102 -0.380  0.210   0.547 0.693
+    GO  peak_speed 77   -0.004       -0.112 -0.308  0.102   0.275 0.581

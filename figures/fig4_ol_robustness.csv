@@ -1,0 +1,13 @@
+label,n,rho,ci_lo,ci_hi
+Original: pressure rate over expected,89,-0.213,-0.41,-0.009
+Pressure probability over expected,89,-0.05,-0.26,0.171
+Raw pressure rate,89,-0.126,-0.333,0.095
+Sack rate,89,0.096,-0.104,0.295
+Time to pressure (higher is better),64,0.123,-0.118,0.356
+Team average removed,84,-0.146,-0.346,0.043
+Mirror drill only,89,-0.019,-0.219,0.194
+Pass-rush-drop drill only,88,-0.024,-0.22,0.157
+Wave-slide drill only,88,-0.178,-0.375,0.035
+Distance from file's own speed,89,-0.198,-0.4,-0.004
+At least 200 pass-block plays,68,-0.254,-0.471,-0.0
+At least 300 pass-block plays,59,-0.226,-0.455,0.041

@@ -1,0 +1,33 @@
+$ python robustness_ol.py
+OL plays: 60799 | sack_allowed recorded: 60799 | time_to_pressure_allowed recorded: 4969
+OL players with outcome, combine and drill features: 89
+
+0. Original lead: [89, np.float64(-0.213), np.float64(-0.405), np.float64(-0.007)]
+
+1. Other outcome definitions (best_net_1s):
+   ol_pressure_rate_over_exp    n,rho,ci: [89, np.float64(-0.213), np.float64(-0.41), np.float64(-0.009)]
+   ol_pressure_prob_over_exp    n,rho,ci: [89, np.float64(-0.05), np.float64(-0.26), np.float64(0.171)]
+   raw_pressure                 n,rho,ci: [89, np.float64(-0.126), np.float64(-0.333), np.float64(0.095)]
+   sack_rate                    n,rho,ci: [89, np.float64(0.096), np.float64(-0.104), np.float64(0.295)]
+   mean_ttp (>=20 pressured plays) n,rho,ci: [64, np.float64(0.123), np.float64(-0.118), np.float64(0.356)]
+
+2. Team effects:
+   leave-one-team-out over 31 teams: rho min -0.250, max -0.186, share still negative 1.00
+   weakest when dropped: [('CHI', 87, np.float64(-0.189)), ('MIN', 85, np.float64(-0.188)), ('TEN', 86, np.float64(-0.186))]
+   team-mean removed (teams with >=2 players) n,rho,ci: [84, np.float64(-0.146), np.float64(-0.346), np.float64(0.043)]
+
+3. Feature variants:
+   best_net_1s in PASS_PRO_MIRROR  n,rho,ci: [89, np.float64(-0.019), np.float64(-0.219), np.float64(0.194)]
+   best_net_1s in PASS_RUSH_DROP   n,rho,ci: [88, np.float64(-0.024), np.float64(-0.22), np.float64(0.157)]
+   best_net_1s in WAVE_SLIDE       n,rho,ci: [88, np.float64(-0.178), np.float64(-0.375), np.float64(0.035)]
+   best_path_1s_s (file's own speed) n,rho,ci: [89, np.float64(-0.198), np.float64(-0.4), np.float64(-0.004)]
+
+4. Play-count cutoffs:
+   >=  50 plays  n,rho,ci: [89, np.float64(-0.213), np.float64(-0.398), np.float64(-0.011)]
+   >= 100 plays  n,rho,ci: [89, np.float64(-0.213), np.float64(-0.394), np.float64(-0.001)]
+   >= 200 plays  n,rho,ci: [68, np.float64(-0.254), np.float64(-0.471), np.float64(-0.0)]
+   >= 300 plays  n,rho,ci: [59, np.float64(-0.226), np.float64(-0.455), np.float64(0.041)]
+
+5. Permutation (Freedman-Lane, 5000 shuffles):
+   n=89; lead rho -0.213; chance of |rho| this large for this one test: 0.042
+   largest |rho| over the 6 OL tests 0.213; chance the largest of 6 is this big: 0.160

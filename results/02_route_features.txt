@@ -1,0 +1,27 @@
+$ python features.py
+2699 attempts
+                                              break_angle  entry_speed  speed_lost  reaccel_s
+drill_name                                                                                   
+BACK_PEDAL_AND_90_DEGREE_BREAK_TO_BALL              42.19         3.25        0.06       0.00
+BACK_PEDAL_AND_TRANSITION_45_DEGREE_REACTION        34.84         5.36        0.20       0.00
+BOX_DRILL                                           95.33         2.94        1.39       0.40
+CIRCUS_ROUTE_LEFT                                   26.44         7.72        0.53       0.00
+COMEBACK_ROUTE_RIGHT                                72.14         4.48        2.01       0.50
+CURL_ROUTE_RIGHT                                    89.83         4.00        2.09       0.70
+DAGGER_ROUTE_LEFT                                   28.76         7.34        0.59       0.00
+GAUNTLET_DRILL                                      30.83         6.94        0.46       0.00
+GO_ROUTE_RIGHT                                       6.54         8.72        0.19       0.00
+LINE                                                 5.04         4.75       -0.30       0.00
+LINE_DRILL                                           4.46         4.72       -0.21       0.00
+OVER_SHOULDER_ADJUST                                 5.83         6.61        0.18       0.00
+POST_CORNER_ROUTE_LEFT                              27.67         7.43        0.60       0.00
+POST_CORNER_ROUTE_RIGHT                             18.27         7.56        0.02       0.00
+RED_ZONE_FADE_RIGHT                                 10.85         3.19       -0.32       0.00
+SLANT_ROUTE_LEFT                                    21.20         4.34       -0.44       0.00
+SLOT_SAIL_ROUTE_RIGHT                               30.95         6.93        0.38       0.00
+SLOT_STRIKE_ROUTE_LEFT                             128.28         3.37        2.40       0.40
+SPEED_OUT_LEFT                                      32.17         6.80        0.37       0.00
+SPEED_OUT_ROUTE_LEFT                                33.91         6.16        0.61       0.00
+TERYL_AUSTIN_DRILL_1                                95.64         3.33        1.49       0.40
+TERYL_AUSTIN_DRILL_2                               163.93         3.02        2.69       0.40
+W_DRILL                                             94.70         2.59        1.59       0.55

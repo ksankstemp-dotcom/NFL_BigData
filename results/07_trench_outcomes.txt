@@ -1,0 +1,22 @@
+$ python trench_outcomes.py
+OL players with >= 100 pass-block plays: 89
+       ol_plays  ol_pressure_rate  ol_pressure_rate_over_exp  ol_pressure_prob_over_exp
+count    89.000            89.000                     89.000                     89.000
+mean    658.753             0.081                      0.000                     -0.002
+std     521.725             0.025                      0.024                      0.035
+min     104.000             0.018                     -0.051                     -0.070
+25%     215.000             0.066                     -0.016                     -0.026
+50%     574.000             0.078                     -0.002                     -0.005
+75%     905.000             0.099                      0.014                      0.020
+max    2103.000             0.145                      0.063                      0.084
+
+DL players: get-off >= 50: 103, rush plays >= 100: 84
+       dl_getoff_plays  dl_rush_plays  dl_get_off  dl_get_off_over_pos  dl_pressure_rate  dl_pressure_rate_over_pos
+count          203.000        203.000     169.000              169.000           189.000                    189.000
+mean           214.591        185.468       1.046                0.043             0.073                     -0.025
+std            348.961        300.899       0.134                0.131             0.094                      0.093
+min              0.000          0.000       0.666               -0.296             0.000                     -0.112
+25%              2.000          3.500       0.962               -0.036             0.000                     -0.083
+50%             56.000         52.000       1.039                0.027             0.065                     -0.026
+75%            269.000        231.500       1.133                0.094             0.094                      0.002
+max           1832.000       1607.000       1.626                0.664             1.000                      0.888

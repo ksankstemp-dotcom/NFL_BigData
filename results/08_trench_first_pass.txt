@@ -1,0 +1,34 @@
+$ python test_trench.py --original
+Sensor features: 20 tests (one family)
+side                   outcome       feature  n  partial_rho  ci_lo  ci_hi  p_boot  p_bh
+  OL ol_pressure_rate_over_exp    speed_0p5s 89        0.028 -0.185  0.239   0.867 0.998
+  OL ol_pressure_rate_over_exp burst_dist_1s 89        0.038 -0.169  0.243   0.739 0.998
+  OL ol_pressure_rate_over_exp peak_accel_1s 89        0.066 -0.151  0.277   0.557 0.998
+  OL ol_pressure_rate_over_exp    peak_speed 89       -0.144 -0.343  0.082   0.194 0.998
+  OL ol_pressure_rate_over_exp     turn_rate 89        0.082 -0.146  0.303   0.454 0.998
+  OL ol_pressure_prob_over_exp    speed_0p5s 89        0.007 -0.226  0.214   0.998 0.998
+  OL ol_pressure_prob_over_exp burst_dist_1s 89       -0.007 -0.234  0.205   0.908 0.998
+  OL ol_pressure_prob_over_exp peak_accel_1s 89        0.018 -0.197  0.238   0.903 0.998
+  OL ol_pressure_prob_over_exp    peak_speed 89        0.004 -0.235  0.230   0.998 0.998
+  OL ol_pressure_prob_over_exp     turn_rate 89       -0.018 -0.245  0.212   0.901 0.998
+  DL       dl_get_off_over_pos    speed_0p5s 99       -0.001 -0.199  0.183   0.980 0.998
+  DL       dl_get_off_over_pos burst_dist_1s 99        0.033 -0.161  0.218   0.771 0.998
+  DL       dl_get_off_over_pos peak_accel_1s 99        0.006 -0.189  0.195   0.985 0.998
+  DL       dl_get_off_over_pos    peak_speed 99       -0.010 -0.222  0.197   0.928 0.998
+  DL       dl_get_off_over_pos     turn_rate 99        0.056 -0.144  0.249   0.612 0.998
+  DL dl_pressure_rate_over_pos    speed_0p5s 81        0.041 -0.209  0.277   0.726 0.998
+  DL dl_pressure_rate_over_pos burst_dist_1s 81        0.032 -0.198  0.274   0.769 0.998
+  DL dl_pressure_rate_over_pos peak_accel_1s 81        0.112 -0.130  0.335   0.342 0.998
+  DL dl_pressure_rate_over_pos    peak_speed 81        0.114 -0.150  0.365   0.390 0.998
+  DL dl_pressure_rate_over_pos     turn_rate 81        0.126 -0.081  0.326   0.257 0.998
+
+Stopwatch baselines (not in the family):
+side                   outcome      feature  n  raw_rho  partial_rho  ci_lo  ci_hi  p_boot
+  OL ol_pressure_rate_over_exp ten_yd_split 72   -0.039       -0.065 -0.301  0.176   0.574
+  OL ol_pressure_rate_over_exp        forty 72   -0.066       -0.051 -0.303  0.203   0.678
+  OL ol_pressure_prob_over_exp ten_yd_split 72   -0.070       -0.083 -0.310  0.147   0.445
+  OL ol_pressure_prob_over_exp        forty 72   -0.126       -0.089 -0.324  0.168   0.494
+  DL       dl_get_off_over_pos ten_yd_split 81    0.310        0.076 -0.170  0.312   0.540
+  DL       dl_get_off_over_pos        forty 81    0.320        0.100 -0.138  0.312   0.393
+  DL dl_pressure_rate_over_pos ten_yd_split 67   -0.337       -0.135 -0.365  0.099   0.247
+  DL dl_pressure_rate_over_pos        forty 67   -0.314       -0.122 -0.348  0.113   0.291

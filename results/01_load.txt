@@ -1,0 +1,10 @@
+$ python load.py
+combine_results: 510 rows
+combine_tracking: 463189 rows
+players: 510 rows
+player_career_successes: 510 rows
+games: 1002 rows
+player_play: 314197 rows
+game_tracking_2023: 3665443 rows
+game_tracking_2024: 7827944 rows
+game_tracking_2025: 11160903 rows

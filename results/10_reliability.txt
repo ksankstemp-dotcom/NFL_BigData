@@ -1,0 +1,28 @@
+$ python reliability.py
+side          drill          feature   n  attempt_corr  mean_of_two
+  DL      PASS_RUSH     peak_speed_s 102         0.688        0.815
+  DL      PASS_RUSH       peak_speed 102         0.679        0.809
+  DL      PASS_RUSH   best_path_1s_s 102         0.664        0.798
+  DL      PASS_RUSH      best_net_1s 102         0.657        0.793
+  DL      PASS_RUSH     top3_accel_s 102         0.469        0.638
+  DL      PASS_RUSH     peak_accel_s 102         0.458        0.628
+  DL      PASS_RUSH    burst_dist_1s 102         0.386        0.557
+  DL      PASS_RUSH       mean_speed 102         0.383        0.553
+  DL      PASS_RUSH        turn_rate 102         0.363        0.532
+  DL      PASS_RUSH    peak_accel_1s 102         0.336        0.503
+  DL      PASS_RUSH   best_gain_0p5s 102         0.335        0.502
+  DL      PASS_RUSH best_gain_0p5s_s 102         0.306        0.468
+  DL      PASS_RUSH       speed_0p5s 102         0.268        0.423
+  OL PASS_RUSH_DROP     peak_speed_s 118         0.586        0.739
+  OL PASS_RUSH_DROP       peak_speed 118         0.530        0.693
+  OL PASS_RUSH_DROP   best_path_1s_s 118         0.423        0.595
+  OL PASS_RUSH_DROP      best_net_1s 118         0.412        0.584
+  OL PASS_RUSH_DROP   best_gain_0p5s 118         0.398        0.569
+  OL PASS_RUSH_DROP best_gain_0p5s_s 118         0.364        0.533
+  OL PASS_RUSH_DROP     top3_accel_s 118         0.247        0.396
+  OL PASS_RUSH_DROP       mean_speed 118         0.236        0.381
+  OL PASS_RUSH_DROP     peak_accel_s 118         0.231        0.375
+  OL PASS_RUSH_DROP    peak_accel_1s 118         0.123        0.220
+  OL PASS_RUSH_DROP       speed_0p5s 118         0.084        0.156
+  OL PASS_RUSH_DROP        turn_rate 118         0.084        0.155
+  OL PASS_RUSH_DROP    burst_dist_1s 118         0.038        0.073

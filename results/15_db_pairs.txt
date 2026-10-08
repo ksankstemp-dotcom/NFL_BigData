@@ -1,0 +1,23 @@
+$ python db_pairs.py
+man-coverage DB/receiver pairs with both tracked at snap and pass_forward: 6398
+kept (DB within 4.0 yd of the receiver at the snap): 1176; DBs: 60; receivers: 94
+check: DB-receiver distance equals the file's nearest-defender separation on 82% of kept pairs (on 14% of the dropped ones)
+
+mean separation by route (yards):
+           size  mean
+route_ran            
+GO          307  1.90
+CROSS       185  4.57
+HITCH       151  2.38
+SLANT       128  1.90
+IN          112  2.96
+CORNER      108  3.42
+OUT          90  2.74
+POST         68  3.71
+FLAT         14  2.79
+SCREEN       13  4.46
+
+pairs per DB: {'count': 60.0, 'mean': 19.6, 'std': 22.9, 'min': 1.0, '25%': 3.0, '50%': 9.0, '75%': 28.5, 'max': 86.0}
+DBs with >= 10 / 20 / 30 pairs: [np.int64(28), np.int64(22), np.int64(15)]
+split-half (odd vs even plays) reliability of separation allowed, DBs with >= 10 pairs (n=28): rho 0.276, Spearman-Brown 0.433
+split-half (odd vs even plays) reliability of separation allowed, DBs with >= 20 pairs (n=22): rho 0.339, Spearman-Brown 0.507

@@ -1,0 +1,23 @@
+$ python overlap.py
+Stopwatch + size predictors: ['forty', 'ten_yd_split', 'vertical', 'broad_jump', 'combine_weight', 'combine_height']
+        group        feature  n  cv_r2_stopwatch  fold_sd  rho_with_forty
+WR sharp cuts     speed_lost 87           -0.051    0.108          -0.126
+WR sharp cuts      reaccel_s 87           -0.006    0.006           0.006
+WR sharp cuts    break_angle 87           -0.059    0.097          -0.104
+WR sharp cuts    entry_speed 87           -0.006    0.077           0.019
+WR sharp cuts     peak_speed 87           -0.005    0.005          -0.087
+    OL drills    best_net_1s 85            0.131    0.164          -0.467
+    OL drills best_gain_0p5s 85            0.092    0.157          -0.356
+    OL drills   peak_speed_s 85            0.147    0.160          -0.486
+    DL drills    best_net_1s 81            0.656    0.129          -0.835
+    DL drills best_gain_0p5s 81            0.398    0.193          -0.691
+    DL drills   peak_speed_s 81            0.659    0.119          -0.841
+
+Repeat-attempt reliability (Spearman, first vs second attempt, same athlete and drill):
+side          drill        feature  athletes_with_2  attempt_corr
+  DL      PASS_RUSH    best_net_1s              102         0.657
+  DL      PASS_RUSH best_gain_0p5s              102         0.335
+  DL      PASS_RUSH   peak_speed_s              102         0.688
+  OL PASS_RUSH_DROP    best_net_1s              118         0.412
+  OL PASS_RUSH_DROP best_gain_0p5s              118         0.398
+  OL PASS_RUSH_DROP   peak_speed_s              118         0.586

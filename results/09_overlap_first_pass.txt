@@ -1,0 +1,31 @@
+$ python overlap.py --original
+Stopwatch + size predictors: ['forty', 'ten_yd_split', 'vertical', 'broad_jump', 'combine_weight', 'combine_height']
+        group       feature  n  cv_r2_stopwatch  fold_sd  rho_with_forty
+WR sharp cuts    speed_lost 87           -0.051    0.108          -0.126
+WR sharp cuts     reaccel_s 87           -0.006    0.006           0.006
+WR sharp cuts   break_angle 87           -0.059    0.097          -0.104
+WR sharp cuts   entry_speed 87           -0.006    0.077           0.019
+WR sharp cuts    peak_speed 87           -0.005    0.005          -0.087
+    OL drills    speed_0p5s 85           -0.027    0.113          -0.231
+    OL drills burst_dist_1s 85           -0.033    0.108          -0.223
+    OL drills peak_accel_1s 85            0.058    0.089          -0.261
+    OL drills    peak_speed 85            0.173    0.169          -0.500
+    OL drills     turn_rate 85            0.022    0.103          -0.143
+    DL drills    speed_0p5s 81            0.106    0.168          -0.244
+    DL drills burst_dist_1s 81            0.096    0.192          -0.265
+    DL drills peak_accel_1s 81            0.104    0.176          -0.415
+    DL drills    peak_speed 81            0.664    0.117          -0.839
+    DL drills     turn_rate 81            0.007    0.092          -0.264
+
+Repeat-attempt reliability (Spearman, first vs second attempt, same athlete and drill):
+side          drill       feature  athletes_with_2  attempt_corr
+  DL      PASS_RUSH    speed_0p5s              102         0.268
+  DL      PASS_RUSH burst_dist_1s              102         0.386
+  DL      PASS_RUSH peak_accel_1s              102         0.336
+  DL      PASS_RUSH    peak_speed              102         0.679
+  DL      PASS_RUSH     turn_rate              102         0.363
+  OL PASS_RUSH_DROP    speed_0p5s              118         0.084
+  OL PASS_RUSH_DROP burst_dist_1s              118         0.038
+  OL PASS_RUSH_DROP peak_accel_1s              118         0.123
+  OL PASS_RUSH_DROP    peak_speed              118         0.530
+  OL PASS_RUSH_DROP     turn_rate              118         0.084

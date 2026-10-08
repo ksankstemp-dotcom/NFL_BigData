@@ -1,0 +1,7 @@
+# Parquet copies of the contest data (hundreds of MB, derived from data we may not redistribute)
+work/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Word copy of the write-up; the Markdown file is the source
+WRITEUP.docx
